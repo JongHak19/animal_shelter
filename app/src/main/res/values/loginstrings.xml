@@ -1,0 +1,17 @@
+<resources>
+    <string name="login">로그인</string>
+    <string name="password">비밀번호</string>
+    <string name="id">아이디</string>
+    <string name="dogresort">멍멍리조트</string>
+    <string name="todo">TODO</string>
+    <string name="image_choice">사진 선택</string>
+    <string name="image_add">사진 추가</string>
+    <string name="content">내용</string>
+    <string name="local">지역</string>
+    <string name="kind">품종</string>
+    <string name="title">제목</string>
+    <string name="login_in">로그인</string>
+    <string name="logintitle">로그인</string>
+    <string name="dogresorttitle">멍멍리조트</string>
+    <string name="register">등록</string>
+</resources>

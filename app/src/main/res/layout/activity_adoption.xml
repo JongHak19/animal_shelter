@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Adoption_Activity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="입양 신청 정보"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FA8571"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="유기견 입양에 관심을 가져주셔서 감사합니다.\n신중하게 생각하시고 글을 작성해주시기 바랍니다."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="입양 신청자 정보"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="입양 신청자 성명"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/resize_check"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="성명을 입력하세요"
+            android:textSize="15sp"
+            android:id="@+id/AdoptPost_UserNameEdit"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="연락처(집/핸드폰)"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/resize_check"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="연락처를 입력하세요"
+            android:textSize="15sp"
+            android:id="@+id/AdoptPost_UserPhoneEdit"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="집주소"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/resize_check"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="주소를 입력하세요"
+            android:textSize="15sp"
+            android:id="@+id/AdoptPost_UserAdressEdit"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="반려견을 입양하려는 이유가 무엇입니까?"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/resize_check"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이유를 입력하세요"
+            android:textSize="15sp"
+            android:id="@+id/AdoptPost_UserReasonEdit"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AdoptPost_OkBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FA8571"
+            android:text="등록"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/approveBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FA8571"
+            android:text="승인"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/AdoptPost_CancelBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FA8571"
+            android:text="취소"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/rejectBtn"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FA8571"
+            android:text="거절"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#FA8571"
+            android:text="확인"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

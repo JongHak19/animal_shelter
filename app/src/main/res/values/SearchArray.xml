@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="searchArray">
+        <item>요크셔테리어</item>
+        <item>치와와</item>
+        <item>진돗개</item>
+    </string-array>
+</resources>
